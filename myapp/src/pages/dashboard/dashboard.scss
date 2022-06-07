@@ -1,0 +1,36 @@
+.dashboard
+{
+        .dashboard-body
+        {           
+            .widgets
+            {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                columns: 3;
+                @media(max-width:786px)
+                {
+                    &
+                    {
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        columns: 1;                        
+                    }
+                }
+            }
+            .charts
+            {
+                display: flex;
+                justify-content: space-around;                                
+                width: 100%;
+                @media(max-width:786px)
+                {
+                    &
+                    {                        
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+}

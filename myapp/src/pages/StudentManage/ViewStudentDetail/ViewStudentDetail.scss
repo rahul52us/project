@@ -1,0 +1,47 @@
+.ViewStudentDetail
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .ViewStudentDetailAvatarContainer
+    {
+        display: flex;        
+        justify-content: space-between;
+    .ViewStudentDetailAvatar
+    {
+        width: 120px;
+        height: 120px;
+        img
+        {
+            width: 100%;
+            height: 100%;
+        }
+    }
+  }
+  .ViewStudentInfo
+  {
+      margin-top: 15px !important;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .ViewStudentInfoDiv
+      {          
+          margin: 4px;
+          padding: 5px;
+          width: 330px;        
+          label
+          {              
+              width: 220px;
+              font-size: 16px;
+              font-weight: bold;
+          }
+
+          .ViewStudentInfoData
+          {
+              margin-left: 6px;
+              font-size: 16px;
+          }
+      }
+  }
+}

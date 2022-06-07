@@ -1,0 +1,61 @@
+.DashChatContainer
+{    
+    .DashChatTop
+    {
+        margin: 10px !important;
+        display: flex;
+        justify-content: flex-end;
+        button
+    {
+        border-radius: 30px;
+    }
+    }
+    
+.DashChat
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    .DashChatCard
+    {
+        margin: 10px;
+        .DashChatCardButton
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .DashChatGroupName
+            {
+                font-size: 14px;
+                color: rgb(118, 109, 95);
+                font-weight: bold;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            button
+            {
+                text-align: center;
+                width: 120px;
+                margin-top: 8px !important;
+            }
+        }        
+    }
+}
+}
+
+
+.DashChatCardDrawer
+{
+    .DrawerNewMemberButton
+    {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15px !important;
+
+        button
+        {
+            border-radius: 30px !important;
+        }
+    }
+}

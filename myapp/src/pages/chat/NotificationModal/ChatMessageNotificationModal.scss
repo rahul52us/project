@@ -1,0 +1,34 @@
+.ChatMessageNotificationModal
+{
+    display: flex;
+    flex-direction: column;    
+    margin-left: 15px !important;
+    .ChatMessageNotificationModal__container
+    {
+        display: flex;
+
+        .ChatMessageNotificationModal__userInfo
+        {
+            display: flex;
+             margin-left: 15px !important;
+
+            .ChatMessageNotificationModal__userName
+            {
+                font-weight: bold;                
+            }
+            .ChatMessageNotificationModal__timeStamp
+            {
+                color: gray;
+                font-size: 14px;
+                margin-left: 10px !important;
+                
+            }
+
+        }      
+    }
+
+    .ChatMessageNotificationModal__content
+    {
+        text-align: justify;
+    }
+}

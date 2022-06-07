@@ -1,0 +1,90 @@
+.UserModalTop
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px !important;
+    span
+    {
+        font-size: 14px;
+        color: blue;
+    }
+}
+.UserListModal
+{
+    height: 50vh;
+.UserListModalHeader
+{
+    display: flex;
+    justify-content: center;
+
+    p
+    {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+        color: red;
+        padding: 5px !important;        
+    }
+}
+
+.UserListModalPdfTitle
+{
+    font-weight: bold;
+    margin-bottom: 10px !important;
+
+}
+
+
+.UserModalDivContainer
+{
+    height: 24vh;
+    overflow-y: auto;
+.UserModelPdfDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    background-color: lightcyan;
+    margin-top: 5px !important;
+    padding: 5px !important;
+    .UserModelPdfDivItem
+    {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    &:hover
+    {
+        background-color: chocolate;
+        cursor: pointer;
+    }
+}
+}
+.UserListModalBottom
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    button
+    {
+        width: 40%;        
+        margin-top: 20px !important;
+        font-weight: bold;
+    }
+}
+}
+
+.UserModelTokenDiv
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px !important;
+    background-color: lightcyan;
+    padding: 5px !important;
+    p
+    {
+        width: 80%;
+        font-weight: bold;
+        font-size: 10px;
+    }
+}

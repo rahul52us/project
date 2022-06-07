@@ -1,0 +1,24 @@
+.EditVideoModalContainer
+{
+    display: flex;
+    flex-direction: column;
+
+    .EditVideoModalInputDiv
+    {
+        margin-top: 10px !important;
+
+        label
+        {
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            color: red;
+            padding: 5px !important;
+        }
+
+        .YouTubeVideoSelector
+        {
+            width: 100%;
+        }
+    }
+}

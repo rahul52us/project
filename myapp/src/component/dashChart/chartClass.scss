@@ -1,0 +1,12 @@
+.chartClass
+{
+    width: 40%;
+
+    @media(max-width:786px)
+    {
+        &
+        {
+            width: 100%;
+        }
+    }
+}

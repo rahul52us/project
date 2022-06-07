@@ -1,0 +1,14 @@
+.UpdateFeesStructure__Top
+{
+    display: flex;
+    justify-content: flex-end;
+    .UpdateFeesStructure__Top_Map
+    {
+        display: flex;
+        .UpdateFeesStructure_Financial_Year
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

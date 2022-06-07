@@ -1,0 +1,33 @@
+form
+{
+.InputCommentBox,.InputCommentBox_false
+{
+    display: flex; 
+    margin-top: 15px;
+    
+    input
+    {        
+        border: 1px solid gray;
+        padding: 5px;
+        outline-width: 0px;
+        border-radius: 30px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .Emoji_container
+    {
+        margin-top: 10px !important;        
+        margin: 5px;
+
+        .emoji
+        {
+            margin: 3px 0px;
+        }
+    }
+}
+}
+.InputCommentBox
+{
+    flex-direction: column;
+}

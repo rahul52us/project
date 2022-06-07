@@ -1,0 +1,52 @@
+.EditQuizQuestion__container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px !important;
+    margin-left: 10px !important;    
+
+    .EditQuizQuestion_Question
+    {
+        width: 90% !important;           
+        @media(max-width:900px)
+        {
+            & 
+            {
+                width:80% !important;
+            }
+        }
+        .Edit_quiz_Question
+        {
+            width: 100%;
+            font-size: 16px;
+            word-wrap: break-word;     
+            font-weight: bold;       
+                       
+        }
+    }
+    .EditQuizQuestion_Actions
+    {                
+        display: flex;
+
+        @media(max-width:900px)
+        {
+            flex-direction: column;
+        }        
+        button
+        {
+            margin-right: 2px !important;
+        }
+
+        @media(max-width:900px)
+        {
+            & 
+            {
+                margin-right: 2px !important;
+                button
+                {
+                    margin: 2px !important;
+                }
+            }
+        }
+    }
+}

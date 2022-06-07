@@ -1,0 +1,29 @@
+.ShowMessageCommentDiv
+{    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px !important;
+    .ShowMessageCommentContainer
+    {
+    .ShowMessagCommenteTop
+    {
+        display: flex;
+
+        .ShowMessageCommentUsername
+        {
+            margin-left: 10px !important;
+            font-weight: bold;
+        }
+    }
+
+    .ShowMessageBodyDiv
+    {
+     .CommentMessage
+     {
+        margin-top: 3px !important;
+        margin-left: 5px !important;
+         line-height: 24px !important;
+     }   
+    }
+}
+}
