@@ -16,7 +16,7 @@ const MessageRoutes = require('./routing/MessageRoutes')
 const ScholarFeesRoutes = require('./routing/StudentScholaFeesRouting')
 
 
-//MONGO_URL="mongodb://localhost:27017/coaching"
+
 //MONGO_URL=mongodb+srv://rahulkushwah:8MinNoypLVa9Eic5@cluster0.f1v9o.mongodb.net/coaching?retryWrites=true&w=majority
 
 dotenv.config()

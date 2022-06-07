@@ -1,3 +1,0 @@
-export const LIKE_BLOG = "LIKE_BLOG";
-export const LIKE_BLOG_SUCCESS = "LIKE_BLOG_SUCCESS";
-export const LIKE_BLOG_FAILED = "LIKE_BLOG_FAILED";
